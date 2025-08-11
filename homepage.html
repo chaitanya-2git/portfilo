@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chaitanya Krishna Portfolio</title>
+
+  <!-- Font Awesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .navbar .logo {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .navbar .logo:visited,
+    .navbar .logo:active,
+    .navbar .logo:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a, .nav-links li i {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .hero {
+      margin-top: 100px;
+      padding: 0 30px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    .hero .name {
+      color: #64ffda;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .hero strong {
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .more-btn {
+      display: inline-block;
+      margin-top: 20px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-bottom: 1px solid #fff;
+    }
+
+    .more-btn i {
+      margin-left: 10px;
+    }
+
+    .social-icons {
+      margin-top: 30px;
+    }
+
+    .social-icons a {
+      margin-right: 15px;
+      color: #fff;
+      font-size: 1.2rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #00acee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+       <a href="homepage.html" class="logo">*</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>I'M <span class="name">CHAITANYA KRISHNA</span></h1>
+    <p>I'm a passionate Frontend Developer and DevOps Enthusiast, dedicated to crafting modern, responsive, and user-friendly web experiences.</p>
+    <p>I enjoy turning ideas into real-world <strong>projects</strong>, combining clean UI with functional design to deliver impactful solutions.</p>
+    <p>When I'm not building or experimenting with new tech, you’ll find me exploring <strong>Technical articles</strong>, staying up-to-date with the latest trends, or relaxing with music.I'm always open to new challenges and opportunities feel free to <strong>contact me</strong> and let's build something great together.</p>
+    
+    <a href="about.html" class="more-btn">See More About Me <i class="fas fa-arrow-right"></i></a>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/chaitanya-krishna-6336ba282/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/chaitanya-2git"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - Chaitanya Krishna Portfolio</title>
+
+  <!-- Font Awesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .navbar .logo {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .navbar .logo:visited,
+    .navbar .logo:active,
+    .navbar .logo:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a,
+    .nav-links li i {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .about-section {
+      margin-top: 100px;
+      padding: 0 30px;
+    }
+
+    .about-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      color: #64ffda;
+    }
+
+    .about-section p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .about-section strong {
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      margin-top: 50px;
+      border-top: 1px solid #444;
+      color: #aaa;
+    }
+
+    /* Bar Container */
+.bar {
+  background-color: #444;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  height: 25px;
+}
+
+/* Bar Fill Style */
+.fill {
+  height: 100%;
+  background-color: #64ffda;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 25px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Individual Skill Animations */
+.fill-95 {
+  width: 95%;
+  animation: fill95 2s ease forwards;
+}
+
+.fill-90 {
+  width: 90%;
+  animation: fill90 2s ease forwards;
+}
+
+.fill-85 {
+  width: 85%;
+  animation: fill85 2s ease forwards;
+}
+
+.fill-80 {
+  width: 80%;
+  animation: fill80 2s ease forwards;
+}
+
+.fill-70 {
+  width: 70%;
+  animation: fill70 2s ease forwards;
+}
+
+/* Keyframes */
+@keyframes fill95 {
+  0% { width: 0; }
+  100% { width: 95%; }
+}
+
+@keyframes fill90 {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+@keyframes fill85 {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+
+@keyframes fill80 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+@keyframes fill70 {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+
+.fill-65 {
+  width: 65%;
+  animation: fill65 2s ease forwards;
+}
+
+@keyframes fill65 {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+
+
+/* Timeline Container */
+.timeline {
+  position: relative;
+  margin: 40px 0;
+  padding-left: 25px;
+  border-left: 3px solid #64ffda;
+}
+
+/* Each Timeline Item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  animation: slideUp 1s ease;
+}
+
+/* Dot on Line */
+.timeline-dot {
+  position: absolute;
+  left: -11px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #64ffda;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* Content */
+.timeline-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.timeline-content p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+/* Slide animation */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="homepage.html" class="logo">*</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <h1>About Me</h1>
+    <p>Hello! I'm <strong>Chaitanya Krishna</strong>, a dedicated <strong>Frontend Developer</strong> and <strong>DevOps Enthusiast</strong>.</p>
+    <p>I have a deep interest in creating sleek, modern, and responsive web applications that provide a seamless user experience. I always aim for clean code, user-friendly design, and a strong understanding of development best practices.</p>
+    <p>I’ve worked on real-time projects like <strong>Blujay Technologies</strong> (full-stack using HTML, CSS, JavaScript, Bootstrap & Google Sheets as DB) and <strong>Aira IT Solutions</strong> (frontend using HTML, CSS, Bootstrap, and JavaScript).</p>
+    <p>Currently, I'm in my final year of B.Tech, actively learning and building more skills in both frontend technologies and cloud-based DevOps tools.</p>
+    <p>My goal is to land a solid job right after graduation and later build a business around tech.</p>
+    <p>If you want to collaborate, work together, or just say hello — feel free to <strong>contact me</strong>!</p>
+
+    <!-- Skills -->
+    <h1>Skills</h1>
+    <p><strong>Here are some of the technologies and tools I work with:</strong></p>
+    <p>HTML</p>
+<div class="bar"><div class="fill fill-95">95%</div></div>
+
+<p>CSS</p>
+<div class="bar"><div class="fill fill-90">90%</div></div>
+
+<p>JavaScript</p>
+<div class="bar"><div class="fill fill-85">85%</div></div>
+
+<p>Bootstrap</p>
+<div class="bar"><div class="fill fill-80">80%</div></div>
+
+<p>DevOps Basics</p>
+<div class="bar"><div class="fill fill-70">70%</div></div>
+
+<!-- Additional DevOps Skills -->
+<p>Git & GitHub</p>
+<div class="bar"><div class="fill fill-90">90%</div></div>
+
+<p>Ansible</p>
+<div class="bar"><div class="fill fill-70">70%</div></div>
+
+<p>Linux</p>
+<div class="bar"><div class="fill fill-85">85%</div></div>
+
+<p>Terraform</p>
+<div class="bar"><div class="fill fill-65">65%</div></div>
+
+<!-- Education -->
+
+
+
+<h2 style="margin-top: 60px; color: #64ffda;">Education</h2>
+<div class="timeline">
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h3>B.Tech – Information Technology</h3>
+      <p><strong>2022 – 2026</strong> | DVR & Dr. HS MIC College of Technology, Kanchikacherla, Andhra Pradesh</p>
+      <p>Currently in final year, with specialization in <strong>Cloud Computing</strong>, <strong>Web Development</strong>, and <strong>DevOps</strong>.</p>
+      <p><strong>Current CGPA:</strong> 7.54/10 (as of 6th Semester)</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h3>Intermediate – MPC</h3>
+      <p><strong>2020 – 2022</strong> | Sri Nidhi Junior College, Tiruvuru, Andhra Pradesh</p>
+      <p>Completed with a strong foundation in core science subjects.</p>
+      <p><strong>Score:</strong> 602/1000</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h3>10th Standard – SSC</h3>
+      <p><strong>2019 – 2020</strong> | Sri Nidhi Techno School, Tiruvuru, Andhra Pradesh</p>
+      <p>Graduated with distinction in Science and Mathematics.</p>
+      <p><strong>GPA:</strong> 597/600</p>
+    </div>
+  </div>
+
+</div>
+
+
+<h2 style="margin-top: 60px; color: #64ffda;">Internships & Trainings</h2>
+<div class="timeline">
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h3>Full Stack Development Internship</h3>
+      <p><strong>May 2024 – August 2024</strong> | Blujay Technologies</p>
+      <p>Worked on a real-time project using <strong>HTML, CSS, JavaScript, Bootstrap</strong>, and Google Sheets as backend database.</p>
+      <p>Handled both frontend design and data submission logic.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h3>Frontend Developer Training</h3>
+      <p><strong>March 2024 – April 2024</strong> | Aira IT Solutions</p>
+      <p>Designed the frontend for a business website using HTML, CSS, Bootstrap, and JavaScript.</p>
+      <p>Focused on responsive UI, modern layouts, and component-based structure.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h3>DevOps Basics Training</h3>
+      <p><strong>June 2025</strong> | Self Learning</p>
+      <p>Completed foundational learning of tools like <strong>Git, GitHub, Ansible, Linux</strong>, and CI/CD pipelines.</p>
+      <p>Built sample Ansible playbooks and experimented with cloud-based automation.</p>
+    </div>
+  </div>
+
+</div>
+
+  </section>
+  <footer>
+    <p>&copy; 2025 Chaitanya Krishna. All rights reserved.</p>
+  </footer>
+</body>
+</html>
